@@ -42,14 +42,28 @@ namespace CHECKBOX_E_EVENTOS
             }
             if (checkBoxBanana.Checked)
             {
-                txt += checkBoxBanana.Text + " ,"; }
+                txt += checkBoxBanana.Text + " ,";
+            }
+            if (checkBoxMamao.Checked)
+            {
+                txt += checkBoxMamao.Text + " ,";
+            }
+            MessageBox.Show("A fruta escolhida foi:" + txt, "A fruta escolhida foi ...");
         }
-    }
-        
-        
-        if (ch) private void checkBoxMamao_CheckedChanged(object sender, EventArgs e)
+            
+
+
+        private void checkBoxMaca_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBoxBanana_CheckedChanged(object sender, EventArgs e)
         {
 
         }
     }
-}
+        
+        
+       
+    }

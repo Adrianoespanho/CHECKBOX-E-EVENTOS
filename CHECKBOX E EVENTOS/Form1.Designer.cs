@@ -49,6 +49,7 @@
             this.checkBoxMaca.TabIndex = 0;
             this.checkBoxMaca.Text = "Maça";
             this.checkBoxMaca.UseVisualStyleBackColor = true;
+            this.checkBoxMaca.CheckedChanged += new System.EventHandler(this.checkBoxMaca_CheckedChanged);
             // 
             // checkBoxPera
             // 
@@ -104,6 +105,7 @@
             this.checkBoxBanana.TabIndex = 5;
             this.checkBoxBanana.Text = "Banana";
             this.checkBoxBanana.UseVisualStyleBackColor = true;
+            this.checkBoxBanana.CheckedChanged += new System.EventHandler(this.checkBoxBanana_CheckedChanged);
             // 
             // checkBoxMamao
             // 
@@ -115,7 +117,6 @@
             this.checkBoxMamao.TabIndex = 6;
             this.checkBoxMamao.Text = "Mamao";
             this.checkBoxMamao.UseVisualStyleBackColor = true;
-            this.checkBoxMamao.CheckedChanged += new System.EventHandler(this.checkBoxMamao_CheckedChanged);
             // 
             // label1
             // 
