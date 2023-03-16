@@ -61,6 +61,7 @@
             this.checkBoxPera.TabIndex = 1;
             this.checkBoxPera.Text = "Pera";
             this.checkBoxPera.UseVisualStyleBackColor = true;
+            this.checkBoxPera.CheckedChanged += new System.EventHandler(this.checkBoxPera_CheckedChanged);
             // 
             // checkBoxAbacaxi
             // 
@@ -72,6 +73,7 @@
             this.checkBoxAbacaxi.TabIndex = 2;
             this.checkBoxAbacaxi.Text = "Abacaxi";
             this.checkBoxAbacaxi.UseVisualStyleBackColor = true;
+            this.checkBoxAbacaxi.CheckedChanged += new System.EventHandler(this.checkBoxAbacaxi_CheckedChanged);
             // 
             // checkBoxLaranja
             // 
@@ -83,6 +85,7 @@
             this.checkBoxLaranja.TabIndex = 3;
             this.checkBoxLaranja.Text = "Laranja";
             this.checkBoxLaranja.UseVisualStyleBackColor = true;
+            this.checkBoxLaranja.CheckedChanged += new System.EventHandler(this.checkBoxLaranja_CheckedChanged);
             // 
             // checkBoxMorango
             // 
@@ -94,6 +97,7 @@
             this.checkBoxMorango.TabIndex = 4;
             this.checkBoxMorango.Text = "Morango";
             this.checkBoxMorango.UseVisualStyleBackColor = true;
+            this.checkBoxMorango.CheckedChanged += new System.EventHandler(this.checkBoxMorango_CheckedChanged);
             // 
             // checkBoxBanana
             // 
@@ -117,6 +121,7 @@
             this.checkBoxMamao.TabIndex = 6;
             this.checkBoxMamao.Text = "Mamao";
             this.checkBoxMamao.UseVisualStyleBackColor = true;
+            this.checkBoxMamao.CheckedChanged += new System.EventHandler(this.checkBoxMamao_CheckedChanged);
             // 
             // label1
             // 
